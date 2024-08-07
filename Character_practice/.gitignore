@@ -1,0 +1,33 @@
+# unity ignore dir
+/[Bb]in/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+ 
+# unity ignore file
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.meta
+*.tmp
+ 
+# need include the meta of file
+!*.*.meta
+
+
+# Library – 可以由 Unity 自行重新產生的資源。
+# Temp – Unity 專案開啟中，會出現的暫存檔案。
+# obj – 同為 Unity 專案開啟中，會出現的暫存檔案。
+# 許多以 csproj、userprefs、sln 為副檔名的零散檔案 – 作為編輯器的設定檔或運作中產生的檔案，是作為編輯器環境相關的設定，與專案內容無關
+# 以上這些都不是專案的本體，Unity 會自行在缺少時產生，或者只是在編輯專案中會出現，不需要進行版本控制的追蹤。
+
+
+
+# Unity 真正的專案內容存在於：
+
+# Assets – 所有於專案中匯入或開發的資源檔及腳本，全部都位於這個資料夾之中，也是在 Unity 編輯器中 Project 視窗所看到的根資料夾，所有的心血都在這裡。
+# ProjectSettings – 儲存一些專案相關設定，包括輸出設定、輸入控制器設定、使用的 Uniry 版本等資料
+
+
